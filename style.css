@@ -1,0 +1,131 @@
+.voting-form-box
+{
+	font-size:100%;
+}
+
+.voting-form-box .active
+{
+	color:green;
+}
+
+.voting-form-box .disable
+{
+	color:red;
+}
+
+.voting-form-box label
+{
+	line-height:20px;
+}
+
+.voting-form-box form
+{
+	margin:0;
+}
+
+.starrequired 
+{
+    color:red;
+}
+.vote-reply-field-captcha-label {
+    margin-bottom:6px;}
+.vote-vote-footer {
+    margin-top:6px;}
+.vote-reply-field-captcha-image {
+    margin:6px 0;}
+
+.bitrix-slider {
+  overflow: hidden;
+  position: relative;
+  padding-top: 30px;
+  background-color: #f8f9fa;
+}
+
+.bitrix-slider .slider-content {
+  display: flex;
+}
+
+.bitrix-slider .slide{
+  padding: 15px;
+}
+
+.nav-buttons .slide {
+  padding: 45px;
+}
+
+.nav-buttons .slider-pages{
+  position: absolute;
+  top: 15px;
+  width: 100%;
+}
+
+.nav-buttons .slider-page-caption {
+  border-radius: 0;
+  width: 30px;
+  height: 8px;
+}
+
+.nav-buttons .slider-page-caption.active {
+  background: var(--theme-b-bd-primary);
+  width: 30px;
+  height: 8px;
+  margin: 2px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.nav-buttons .slider-control {
+  position: relative;
+  display: block;
+  padding: 15px 45px;
+}
+
+.nav-buttons .left-arrow,
+.nav-buttons .right-arrow {
+  margin-right: 10px;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 14px !important;
+  border: 1px solid;
+  opacity: 1;
+}
+
+
+.nav-buttons .left-arrow:hover,
+.nav-buttons .right-arrow:hover {
+  opacity: 0.7;
+}
+
+.nav-buttons .left-arrow {
+  border-color: var(--theme-b-bd-primary);
+  background-color: var(--theme-b-tx-primary);
+  color: var(--theme-b-bd-primary);
+}
+
+.nav-buttons .left-arrow:before {
+  content: 'Назад';
+}
+
+
+.nav-buttons .right-arrow {
+  border-color: var(--theme-b-bd-primary);
+  background-color: var(--theme-b-bg-primary);
+  color: var(--theme-b-tx-primary);
+}
+
+.nav-buttons .right-arrow:after {
+  content: 'Далее';
+}
+
+#hideBlock {
+  min-width: 300px;
+  min-height: 100px;
+  text-align: center;
+}
+
+#hideBlock .btn{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
